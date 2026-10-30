@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temple Run Clone</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="game-shell">
+      <div class="hud">
+        <div class="score-panel">
+          <span class="label">Score</span>
+          <span id="score">0</span>
+        </div>
+        <div class="score-panel">
+          <span class="label">Best</span>
+          <span id="best">0</span>
+        </div>
+      </div>
+
+      <canvas id="gameCanvas" width="900" height="500" aria-label="Temple Run clone game"></canvas>
+
+      <div class="controls-panel">
+        <p>Move: ← → or A / D</p>
+        <p>Jump: ↑ / W / Space</p>
+        <button id="startButton" type="button">Start Run</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background:
+    radial-gradient(circle at top, rgba(255, 180, 68, 0.18), transparent 32%),
+    linear-gradient(180deg, #0d1d2a 0%, #101b20 35%, #0b0f14 100%);
+  font-family: Arial, Helvetica, sans-serif;
+  color: #f5eecc;
+}
+
+.game-shell {
+  width: min(92vw, 960px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.hud {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.75rem 1rem;
+  background: rgba(11, 18, 23, 0.8);
+  border: 2px solid rgba(255, 204, 92, 0.6);
+  border-radius: 12px;
+  box-shadow: 0 0 18px rgba(255, 175, 15, 0.12);
+}
+
+.score-panel {
+  display: flex;
+  flex-direction: column;
+  min-width: 120px;
+  align-items: center;
+  font-weight: 700;
+}
+
+.label {
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #d7c383;
+}
+
+#score,
+#best {
+  font-size: clamp(1.5rem, 2vw, 2.3rem);
+  color: #ffefab;
+}
+
+canvas {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 18px;
+  background: linear-gradient(180deg, #203f53 0%, #1d4e5d 22%, #3d5c3b 30%, #537938 100%);
+  border: 3px solid rgba(255, 196, 86, 0.7);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25), 0 0 24px rgba(255, 196, 86, 0.16);
+}
+
+.controls-panel {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.75rem 1rem;
+  background: rgba(13, 13, 18, 0.7);
+  border: 2px solid rgba(122, 223, 175, 0.45);
+  border-radius: 12px;
+}
+
+.controls-panel p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #dfe9d2;
+}
+
+button {
+  background: linear-gradient(180deg, #f1b84d, #cb7121);
+  color: #1f1407;
+  border: none;
+  padding: 0.7rem 1.15rem;
+  border-radius: 10px;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 8px 18px rgba(193, 95, 14, 0.28);
+}
+
+button:hover {
+  filter: brightness(1.05);
+}
+
+button:active {
+  transform: translateY(1px);
+}
+
+@media (max-width: 700px) {
+  .controls-panel {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
