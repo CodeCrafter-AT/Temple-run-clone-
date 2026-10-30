@@ -1,0 +1,63 @@
+# 🏃 Temple Runner – Android Game
+
+An Android endless-runner game developed through an AI-assisted development workflow, combining human creativity, AI-powered tools, and hands-on software engineering.
+
+## 🚀 About the Project
+
+Temple Runner is a personal game development project inspired by the endless-runner genre. The goal was to explore how modern AI development tools and agent-based workflows can help turn an idea into a working Android game.
+
+This project represents an experiment in building software with the assistance of AI agents rather than relying entirely on traditional manual development.
+
+## 🤖 How I Built This Project
+
+One of the most interesting parts of this project was the development process itself.
+
+I explored and combined several tools to make the development workflow more efficient:
+
+- **REA (Reverse Engineering Assistant):** Used as part of my AI-assisted development and technical exploration workflow.
+- **Antigravity:** Assisted with AI-powered coding, project development, and implementation.
+- **Android Studio:** Used for Android development, project management, and building the application.
+- **AI-assisted workflows:** Helped explore implementation approaches, solve development challenges, and iterate on the project.
+
+Instead of treating AI as just a code generator, I explored how multiple tools could work together to support the development process.
+
+## 🎯 Project Goals
+
+- Explore AI-assisted game development.
+- Understand how AI agents can support real software projects.
+- Build an Android game from an initial concept.
+- Experiment with development, debugging, and iterative improvements.
+- Learn how to coordinate multiple development tools in one workflow.
+
+## 🛠️ Development Approach
+
+The project followed an iterative development approach:
+
+1. Project exploration and initial setup.
+2. Planning the game structure and implementation.
+3. AI-assisted coding and development.
+4. Testing and resolving development issues.
+5. Building the Android application.
+6. Preparing the project for further improvements.
+
+## 📱 Project Status
+
+This is an ongoing personal development project. Features, gameplay mechanics, performance, and visual improvements may continue to evolve.
+
+## 💡 What I Learned
+
+This project helped me explore the potential of AI-assisted engineering and how tools such as REA and Antigravity can support the process of building actual applications.
+
+It also reinforced an important idea:
+
+**AI is not just about generating code. It's about using the right tools, workflows, and human decisions to turn ideas into working products.**
+
+## 👨‍💻 Developer
+
+Built as an independent learning and development project.
+
+Contributions, suggestions, and feedback are welcome!
+
+---
+
+⭐ If you find this project interesting, consider giving the repository a star.
